@@ -27,7 +27,7 @@ library(googleIndexAPIR)
 ```r
 scopes = c("https://www.googleapis.com/auth/indexing")
 ```
-3. Set the Client. ere we need the Downloaded JSOn File from above
+3. Set the Client here we need the Downloaded JSON File from above
 ```r
 gar_set_client("PATH_TO_YOUR_FILE.apps.googleusercontent.com.json", scopes = scopes)
 
